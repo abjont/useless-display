@@ -1,0 +1,505 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #101014;
+    color: #fff;
+}
+
+/*wygląd wyświetlacza*/
+
+.display {
+	position: relative;
+	margin: 50px auto;
+	height: calc(600px - 60px + 150px);
+	width: 600px;
+	background-color: black;
+	font-size: 0;
+}
+
+.display-element {
+	position: absolute;
+	display: inline-block;
+	background-color: #2b362c;
+	border-radius: 15px;
+	transform: translate(-50%, -50%);
+}
+
+.dis-el-horizontal {
+	/* margin: 15px 45px; */
+	width: calc(30px * 7);
+	height: 30px;
+}
+
+.dis-el-vertical {
+	width: 30px;
+	height: calc(30px * 7);
+}
+
+.dis-el-h-top {
+	top: 30px;
+}
+
+.dis-el-h-middle {
+	top: calc(300px - 30px);
+}
+
+.dis-el-h-bottom {
+	top: calc(30px * 17);
+}
+
+.dis-el-v-top {
+	top: calc(30px * 5);
+}
+
+.dis-el-v-bottom {
+	top: calc(30px * 13);
+}
+
+.dis-el-h-ten {
+	left: 25%;
+}
+
+.dis-el-h-one {
+	left: 75%;
+}
+
+.dis-el-v-ten-left {
+	left: 5%;
+}
+
+.dis-el-v-ten-right {
+	left: 45%;
+}
+
+.dis-el-v-one-left {
+	left: 55%;
+}
+
+.dis-el-v-one-right {
+	left: 95%;
+}
+
+/*wygląd targetów*/
+.target {
+	position: relative;
+	top: calc(30px * 18);
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+}
+
+/*akcja*/
+
+.target-00:hover ~ .n-00 {
+	background-color: #33ff00;
+}
+
+.target-01:hover ~ .n-01 {
+	background-color: #33ff00;
+}
+
+.target-02:hover ~ .n-02 {
+	background-color: #33ff00;
+}
+
+.target-03:hover ~ .n-03 {
+	background-color: #33ff00;
+}
+
+.target-04:hover ~ .n-04 {
+	background-color: #33ff00;
+}
+
+.target-05:hover ~ .n-05 {
+	background-color: #33ff00;
+}
+
+.target-06:hover ~ .n-06 {
+	background-color: #33ff00;
+}
+
+.target-07:hover ~ .n-07 {
+	background-color: #33ff00;
+}
+
+.target-08:hover ~ .n-08 {
+	background-color: #33ff00;
+}
+
+.target-09:hover ~ .n-09 {
+	background-color: #33ff00;
+}
+
+.target-10:hover ~ .n-10 {
+	background-color: #33ff00;
+}
+
+.target-11:hover ~ .n-11 {
+	background-color: #33ff00;
+}
+
+.target-12:hover ~ .n-12 {
+	background-color: #33ff00;
+}
+
+.target-13:hover ~ .n-13 {
+	background-color: #33ff00;
+}
+
+.target-14:hover ~ .n-14 {
+	background-color: #33ff00;
+}
+
+.target-15:hover ~ .n-15 {
+	background-color: #33ff00;
+}
+
+.target-16:hover ~ .n-16 {
+	background-color: #33ff00;
+}
+
+.target-17:hover ~ .n-17 {
+	background-color: #33ff00;
+}
+
+.target-18:hover ~ .n-18 {
+	background-color: #33ff00;
+}
+
+.target-19:hover ~ .n-19 {
+	background-color: #33ff00;
+}
+
+.target-20:hover ~ .n-20 {
+	background-color: #33ff00;
+}
+
+.target-21:hover ~ .n-21 {
+	background-color: #33ff00;
+}
+
+.target-22:hover ~ .n-22 {
+	background-color: #33ff00;
+}
+
+.target-23:hover ~ .n-23 {
+	background-color: #33ff00;
+}
+
+.target-24:hover ~ .n-24 {
+	background-color: #33ff00;
+}
+
+.target-25:hover ~ .n-25 {
+	background-color: #33ff00;
+}
+
+.target-26:hover ~ .n-26 {
+	background-color: #33ff00;
+}
+
+.target-27:hover ~ .n-27 {
+	background-color: #33ff00;
+}
+
+.target-28:hover ~ .n-28 {
+	background-color: #33ff00;
+}
+
+.target-29:hover ~ .n-29 {
+	background-color: #33ff00;
+}
+
+.target-30:hover ~ .n-30 {
+	background-color: #33ff00;
+}
+
+.target-31:hover ~ .n-31 {
+	background-color: #33ff00;
+}
+
+.target-32:hover ~ .n-32 {
+	background-color: #33ff00;
+}
+
+.target-33:hover ~ .n-33 {
+	background-color: #33ff00;
+}
+
+.target-34:hover ~ .n-34 {
+	background-color: #33ff00;
+}
+
+.target-35:hover ~ .n-35 {
+	background-color: #33ff00;
+}
+
+.target-36:hover ~ .n-36 {
+	background-color: #33ff00;
+}
+
+.target-37:hover ~ .n-37 {
+	background-color: #33ff00;
+}
+
+.target-38:hover ~ .n-38 {
+	background-color: #33ff00;
+}
+
+.target-39:hover ~ .n-39 {
+	background-color: #33ff00;
+}
+
+.target-40:hover ~ .n-40 {
+	background-color: #33ff00;
+}
+
+.target-41:hover ~ .n-41 {
+	background-color: #33ff00;
+}
+
+.target-42:hover ~ .n-42 {
+	background-color: #33ff00;
+}
+
+.target-43:hover ~ .n-43 {
+	background-color: #33ff00;
+}
+
+.target-44:hover ~ .n-44 {
+	background-color: #33ff00;
+}
+
+.target-45:hover ~ .n-45 {
+	background-color: #33ff00;
+}
+
+.target-46:hover ~ .n-46 {
+	background-color: #33ff00;
+}
+
+.target-47:hover ~ .n-47 {
+	background-color: #33ff00;
+}
+
+.target-48:hover ~ .n-48 {
+	background-color: #33ff00;
+}
+
+.target-49:hover ~ .n-49 {
+	background-color: #33ff00;
+}
+
+.target-50:hover ~ .n-50 {
+	background-color: #33ff00;
+}
+
+.target-51:hover ~ .n-51 {
+	background-color: #33ff00;
+}
+
+.target-52:hover ~ .n-52 {
+	background-color: #33ff00;
+}
+
+.target-53:hover ~ .n-53 {
+	background-color: #33ff00;
+}
+
+.target-54:hover ~ .n-54 {
+	background-color: #33ff00;
+}
+
+.target-55:hover ~ .n-55 {
+	background-color: #33ff00;
+}
+
+.target-56:hover ~ .n-56 {
+	background-color: #33ff00;
+}
+
+.target-57:hover ~ .n-57 {
+	background-color: #33ff00;
+}
+
+.target-58:hover ~ .n-58 {
+	background-color: #33ff00;
+}
+
+.target-59:hover ~ .n-59 {
+	background-color: #33ff00;
+}
+
+.target-60:hover ~ .n-60 {
+	background-color: #33ff00;
+}
+
+.target-61:hover ~ .n-61 {
+	background-color: #33ff00;
+}
+
+.target-62:hover ~ .n-62 {
+	background-color: #33ff00;
+}
+
+.target-63:hover ~ .n-63 {
+	background-color: #33ff00;
+}
+
+.target-64:hover ~ .n-64 {
+	background-color: #33ff00;
+}
+
+.target-65:hover ~ .n-65 {
+	background-color: #33ff00;
+}
+
+.target-66:hover ~ .n-66 {
+	background-color: #33ff00;
+}
+
+.target-67:hover ~ .n-67 {
+	background-color: #33ff00;
+}
+
+.target-68:hover ~ .n-68 {
+	background-color: #33ff00;
+}
+
+.target-69:hover ~ .n-69 {
+	background-color: #33ff00;
+}
+
+.target-70:hover ~ .n-70 {
+	background-color: #33ff00;
+}
+
+.target-71:hover ~ .n-71 {
+	background-color: #33ff00;
+}
+
+.target-72:hover ~ .n-72 {
+	background-color: #33ff00;
+}
+
+.target-73:hover ~ .n-73 {
+	background-color: #33ff00;
+}
+
+.target-74:hover ~ .n-74 {
+	background-color: #33ff00;
+}
+
+.target-75:hover ~ .n-75 {
+	background-color: #33ff00;
+}
+
+.target-76:hover ~ .n-76 {
+	background-color: #33ff00;
+}
+
+.target-77:hover ~ .n-77 {
+	background-color: #33ff00;
+}
+
+.target-78:hover ~ .n-78 {
+	background-color: #33ff00;
+}
+
+.target-79:hover ~ .n-79 {
+	background-color: #33ff00;
+}
+
+.target-80:hover ~ .n-80 {
+	background-color: #33ff00;
+}
+
+.target-81:hover ~ .n-81 {
+	background-color: #33ff00;
+}
+
+.target-82:hover ~ .n-82 {
+	background-color: #33ff00;
+}
+
+.target-83:hover ~ .n-83 {
+	background-color: #33ff00;
+}
+
+.target-84:hover ~ .n-84 {
+	background-color: #33ff00;
+}
+
+.target-85:hover ~ .n-85 {
+	background-color: #33ff00;
+}
+
+.target-86:hover ~ .n-86 {
+	background-color: #33ff00;
+}
+
+.target-87:hover ~ .n-87 {
+	background-color: #33ff00;
+}
+
+.target-88:hover ~ .n-88 {
+	background-color: #33ff00;
+}
+
+.target-89:hover ~ .n-89 {
+	background-color: #33ff00;
+}
+
+.target-90:hover ~ .n-90 {
+	background-color: #33ff00;
+}
+
+.target-91:hover ~ .n-91 {
+	background-color: #33ff00;
+}
+
+.target-92:hover ~ .n-92 {
+	background-color: #33ff00;
+}
+
+.target-93:hover ~ .n-93 {
+	background-color: #33ff00;
+}
+
+.target-94:hover ~ .n-94 {
+	background-color: #33ff00;
+}
+
+.target-95:hover ~ .n-95 {
+	background-color: #33ff00;
+}
+
+.target-96:hover ~ .n-96 {
+	background-color: #33ff00;
+}
+
+.target-97:hover ~ .n-97 {
+	background-color: #33ff00;
+}
+
+.target-98:hover ~ .n-98 {
+	background-color: #33ff00;
+}
+
+.target-99:hover ~ .n-99 {
+	background-color: #33ff00;
+}
+
+/*footer*/
+
+footer {
+    color: #ddd;
+}
